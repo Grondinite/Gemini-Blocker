@@ -1,0 +1,3 @@
+div[data-mcpr]:has(div[role='heading']) {
+    display:none;
+}

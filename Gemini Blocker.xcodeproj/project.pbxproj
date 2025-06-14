@@ -76,11 +76,6 @@
 			path = "Gemini BlockerTests";
 			sourceTree = "<group>";
 		};
-		4641BD752DFD154A00E5FB8A /* Gemini BlockerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Gemini BlockerUITests";
-			sourceTree = "<group>";
-		};
 		4641BD822DFD154A00E5FB8A /* Gemini Blocker Extension */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -132,7 +127,6 @@
 			children = (
 				4641BD4E2DFD154900E5FB8A /* Gemini Blocker */,
 				4641BD6B2DFD154A00E5FB8A /* Gemini BlockerTests */,
-				4641BD752DFD154A00E5FB8A /* Gemini BlockerUITests */,
 				4641BD822DFD154A00E5FB8A /* Gemini Blocker Extension */,
 				4641BD4D2DFD154900E5FB8A /* Products */,
 			);
@@ -212,9 +206,6 @@
 			dependencies = (
 				4641BD742DFD154A00E5FB8A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				4641BD752DFD154A00E5FB8A /* Gemini BlockerUITests */,
-			);
 			name = "Gemini BlockerUITests";
 			packageProductDependencies = (
 			);
@@ -267,6 +258,7 @@
 					};
 					4641BD7D2DFD154A00E5FB8A = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 				};
 			};
@@ -376,6 +368,7 @@
 		4641BD9A2DFD154A00E5FB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Gemini Blocker Extension/Gemini_Blocker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -400,6 +393,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -407,6 +401,7 @@
 		4641BD9B2DFD154A00E5FB8A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "Gemini Blocker Extension/Gemini_Blocker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

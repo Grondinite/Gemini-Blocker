@@ -6,16 +6,19 @@
       "size" : "16x16"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-16x16@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "16x16"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-16x16@2x 1.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "32x32"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-32x32@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "32x32"
@@ -26,26 +29,31 @@
       "size" : "128x128"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-128x128@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "128x128"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-128x128@#x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "256x256"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-256x256@2x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "256x256"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-256x256@1x.png",
       "idiom" : "mac",
       "scale" : "1x",
       "size" : "512x512"
     },
     {
+      "filename" : "gemini-blocker-macOS-Default-512x512@1x.png",
       "idiom" : "mac",
       "scale" : "2x",
       "size" : "512x512"

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Gemini Blocker
-//
-//  Created by thomas on 2025-06-13.
-//
-
 import Cocoa
 
 @main
